@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-// double welcome() {
-//     double a;
-//     scanf("%lf",&a);
-//     return a;
-// }
+double welcome() {
+    double a;
+    scanf("%lf",&a);
+    return a;
+}
 
 int main() {
-    double a;
-    scanf("lf",&a);
-    printf("You entered: %.4lf",a);
+    printf("You entered: %.4lf", welcome());
     return 0;
 }
