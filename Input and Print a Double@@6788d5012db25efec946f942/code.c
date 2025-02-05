@@ -10,7 +10,6 @@ double welcome {
     return a;
 }
 int main() {
-    printf("You entered: %.4f", welcome());
     printf("You entered: %.4lf", welcome());
     return 0;
 }
