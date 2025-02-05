@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void grt_equal(){
-    int n1, n2;
-    scanf("%d %d",&n1, n2);
-    if(n1 >= n2){
+    int x, y;
+    scanf("%d %d",&x, &y);
+    if(x >= y){
         printf("True");
     }
     else{
