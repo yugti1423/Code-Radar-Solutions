@@ -9,3 +9,8 @@ void leap_year(){
         printf("Not a Leap Year");
     }
 }
+
+int main(){
+    leap_year();
+    return 0;
+}
