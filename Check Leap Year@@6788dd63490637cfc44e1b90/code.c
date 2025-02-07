@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void leap_year(){
-    int yr;
-    scanf("%d",&yr);
-    if((yr % 4 == 0 && yr % 100 != 0) || (yr % 400 == 0)){
+    int year;
+    scanf("%d",&year);
+    if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
         printf("Lear Year");
     } else{
         printf("Not a Leap Year");
