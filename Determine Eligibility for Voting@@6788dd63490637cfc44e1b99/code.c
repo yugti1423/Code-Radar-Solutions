@@ -9,3 +9,7 @@ void eligibility(){
         printf("Not Eligible");
     }
 }
+int main(){
+    eligibility();
+    return 0;
+}
