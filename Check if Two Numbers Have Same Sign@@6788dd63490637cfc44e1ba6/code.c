@@ -10,3 +10,7 @@ void same_sign(){
         printf("Different Sign");
     }
 }
+int main(){
+    same_sign();
+    return 0;
+}
