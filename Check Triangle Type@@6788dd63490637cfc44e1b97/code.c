@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-void tri_check(){
-    int s1, s2, s3;
-    scanf("%d %d %d",&s1, &s2, &s3);
-     if (a + b > c && b + c > a && c + a > b){
-        if(s1 == s2 && s2 == s3){
-        printf("Equilateral");
+int main() {
+    float a, b, c;
+
+    scanf("%f %f %f", &a, &b, &c);
+
+    if (a + b > c && b + c > a && c + a > b) {
+        if (a == b && b == c) {
+            printf("The triangle is Equilateral.\n");
+        }
+        else if (a == b || b == c || c == a) {
+            printf("Isosceles");
+        }
+        else {
+            printf("Scalene");
+        }
     }
-    else if((s1 == s2)||(s1 == s3)||(s2 == s3)){
-        printf("Isosceles");
-    }
-    else{
-        printf("Scalene");
-    }
-    }
-}
-int main(){
-    tri_check();
     return 0;
 }
