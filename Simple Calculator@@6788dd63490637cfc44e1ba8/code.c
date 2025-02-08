@@ -1,25 +1,19 @@
 #include <stdio.h>
 
 void calc(){
-    int a, b;
-    char op;
-    scanf("%d %d",&a, &b);
-    scanf("%c",&op);
-    int c=a+b;
-    int d=a-b;
-    int e=a*b;
-    int h=a/b;
+    int a,b,char(op);
+    scanf("%d %d %c",&a,&b,&op);
     if(op == '+'){
-        printf("%d",c);
+        printf("%d",(a+b));
     }
     else if(op == '-'){
-        printf("%d",d);
+        printf("%d",(a-b));
     }
     else if(op == '*'){
-        printf("%d",e);
+        printf("%d",(a*b));
     }
     else if(op == '/'){
-        printf("%d",h);
+        printf("%d",(a/b));
     }
     else{
         printf("Error");
