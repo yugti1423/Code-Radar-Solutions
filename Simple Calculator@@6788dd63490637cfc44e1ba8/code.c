@@ -8,7 +8,7 @@ void calc(){
     int c=a+b;
     int d=a-b;
     int e=a*b;
-    int f=a/b;
+    int h=a/b;
     if(op == '+'){
         printf("%d",c);
     }
@@ -19,7 +19,7 @@ void calc(){
         printf("%d",e);
     }
     else if(op == '/'){
-        printf("%d",f);
+        printf("%d",h);
     }
     else{
         printf("Error");
