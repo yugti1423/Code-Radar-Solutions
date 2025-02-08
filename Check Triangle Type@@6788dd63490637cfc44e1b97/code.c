@@ -6,7 +6,7 @@ void tri_check(){
     if(s1 == s2 == s3){
         printf("Equilateral");
     }
-    else if(s1 == s2 || s1 == s3 || s2 == s3){
+    else if((s1 == s2)||(s1 == s3)||(s2 == s3)){
         printf("Isosceles");
     }
     else(){
