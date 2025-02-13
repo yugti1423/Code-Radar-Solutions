@@ -1,16 +1,22 @@
 #include <stdio.h>
-
-void prime(){
-    int num;
-    scanf("%d",&num);
-    if((num > 1) && (num % 1 == 0) && (num % num == 0)){
-        printf("Prime");
+int main() {
+    int num, i, isPrime = 1;
+    scanf("%d", &num);
+    if (num <= 1) {
+        isPrime = 0;
+    } 
+    else {
+        for (i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+           isPrime = 0;
+           break;
+        }
+        }
     }
-    else{
+    if (isPrime) {
+        printf("Prime");
+    } else {
         printf("Not Prime");
     }
-}
-int main(){
-    prime();
     return 0;
 }
