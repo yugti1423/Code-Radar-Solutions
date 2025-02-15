@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-void left(){
-    int n1, n2,shift;
-    scanf("%d %d",&n1, &n2);
-    shift= n1 << n2;
-}
+int main() {
+    int num, shift, result;
+    scanf("%d %d", &num, &shift);
 
-int main(){
-    left();
+    result = num << shift;
+    printf("%d",result);
+    
     return 0;
-} 
+}
