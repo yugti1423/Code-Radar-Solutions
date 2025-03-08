@@ -1,34 +1,25 @@
-#include <stdio.h>
-
-int welcome(int a, int b, char c) {
-    switch(c){
+#include<stdio.h>
+int main(){
+    int a, b, char opr;
+    scanf("%d %d %c",&a, &b, &opr);
+    switch(opr){
         case '+':
-            return a+b;
+        printf("%d",a+b);
+        break;
+        
         case '-':
-            return a-b;
+        printf("%d",a-b);
+        break;
+
         case '*':
-            return a*b;
+        printf("%d",a*b);
+        break;
+
         case '/':
-            if (b == 0) {
-                return -1;
-            } else {
-                return a / b;
-            }     
+        printf("%d",a/b);
+        break;
+
         default:
-            return "Error";          
+        break;
     }
-
-    return 0;
-}
-
-int main() {
-    int x,y; char q;
-    scanf("%d %d %c",&x,&y,&q);
-    int result= welcome(x,y,q);
-    if (result==-1){
-        printf("error");
-    }else{
-    printf("%d", result);
-    }
-    return 0;
 }
