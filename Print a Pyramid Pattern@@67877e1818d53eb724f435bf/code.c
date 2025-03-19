@@ -6,6 +6,9 @@ int main(){
         for(int j=1; j<=N; j++){
             printf("*");
         }
+        for(int j=1;j<=(2*i-1); j++){
+            printf("*");
+        }
         print("\n");
     }
     return 0;
