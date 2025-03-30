@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void findRank(int n, int leaderboard[], int m, int gameScores[]) {
+void trackPlayerRanks(int n, int leaderboard[], int m, int gameScores[]) {
     
     int uniqueLeaderboard[n];
     int uniqueSize = 0;
