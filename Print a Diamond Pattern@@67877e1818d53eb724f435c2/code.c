@@ -24,7 +24,7 @@ int main() {
         stars = 2 * i - 1;
 
         for (j = 1; j <= spaces; j++) {
-            printf("  ");
+            printf(" ");
         }
         for (j = 1; j <= stars; j++) {
             printf("*");
