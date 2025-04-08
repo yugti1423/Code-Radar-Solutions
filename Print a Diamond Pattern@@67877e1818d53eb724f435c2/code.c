@@ -4,8 +4,8 @@ int main(){
     scanf("%d",&N);
     int nsp=N/2;
     int nst=1;
-    int ml=N/2+1;
-    for(int i=1; i<=N+1; i++){
+    int ml=(N/2)+1;
+    for(int i=1; i<=N; i++){
         for(int j=1; j<=nsp; j++){
             printf(" ");
         }
