@@ -14,7 +14,7 @@ int main() {
             printf("  ");
         }
         for (j = 1; j <= stars; j++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
